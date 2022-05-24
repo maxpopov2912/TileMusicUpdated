@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<audio id="music" controls muted="muted">
+		<source src="music/silent_tears.mp3" type="audio/mp3">
+	  </audio>
+	  
+
+	  <div class="game-container">
+			<canvas id="canvas" width="800" height="600"></canvas>
+
+
+			<div>
+				<p>Score: <span id="score">0</span></p>
+				<p>High score: <span id="highscore">0</span></p>
+			
+	
+			<div id="startButton">
+				Start
+			</div>
+
+			<div id="stopButton">
+				Stop
+			</div>
+
+			<div>
+				<div id="easyButton">
+					Easy
+				</div>
+				<div id="normalButton">
+					Normal
+				</div>
+				<div id="hardButton">
+					Hard
+				</div>
+
+				<p id="difficulty">Normal mode is selected</p>
+			</div>
+
+		</div>
+	  </div>
+
+	  <div class="controls">
+		  <div id="button-z" class="control-circle">
+			<p>Z</p>
+		  </div>
+		  <div id="button-x" class="control-circle">
+			<p>X</p>
+		  </div>
+		  <div id="button-n" class="control-circle">
+			<p>N</p>
+		  </div>
+		  <div id="button-m" class="control-circle">
+			<p>M</p>
+		  </div>
+		  
+	  </div>
+	
+	<script src="script.js"></script>
+
+</body>
+</html>

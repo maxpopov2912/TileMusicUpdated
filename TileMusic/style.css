@@ -1,0 +1,123 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    font-size: 30px;
+    
+    color: white;
+}
+
+body{
+    background-color: #000030;
+}
+
+#music{
+    display: none;
+}
+
+#startButton{
+    height: 100px;
+    width: 200px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 10px;
+
+    background-color: #fbbb56;
+
+    cursor: pointer;
+}
+
+
+#stopButton{
+    height: 100px;
+    width: 200px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 10px;
+
+    background-color: #dc143c;
+
+    cursor: pointer;
+}
+
+.game-container{
+    display: flex;
+    align-items: center;
+}
+
+#easyButton{
+    height: 50px;
+    width: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 10px;
+
+    background-color: #AFD8DB;
+
+    cursor: pointer;
+}
+
+#normalButton{
+    height: 50px;
+    width: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 10px;
+
+    background-color: #c7c75c;
+
+    cursor: pointer;
+}
+
+#hardButton{
+    height: 50px;
+    width: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 10px;
+
+    background-color: #FFABAB;
+
+    cursor: pointer;
+}
+
+.controls{
+    display: flex;
+    padding-left: 140px;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: -50px;
+
+    width: 320px;
+}
+
+.control-circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 40px;
+    width: 40px;
+
+    background-color: #000;
+    border-radius: 20px;
+}
+
+.pressed{
+    background-color: #600000;
+}
